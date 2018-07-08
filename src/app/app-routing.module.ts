@@ -14,7 +14,9 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: './pages/list/list.module#ListPageModule'
-  }
+  },
+  { path: 'todo', loadChildren: './pages/todo/todo.module#TodoPageModule' },
+  { path: 'todo-list', loadChildren: './pages/todo-list/todo-list.module#TodoListPageModule' }
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

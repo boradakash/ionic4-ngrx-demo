@@ -26,6 +26,9 @@
     "@ionic/angular": "4.0.0-alpha.7",
     "@ionic/ng-toolkit": "1.0.0-rc.9",
     "@ionic/schematics-angular": "1.0.0-rc.9",
+    "@ngrx/effects": "^6.0.1",
+    "@ngrx/store": "^6.0.1",
+    "angular-in-memory-web-api": "^0.6.0",
     "core-js": "^2.5.3",
     "rxjs": "6.2.1",
     "zone.js": "^0.8.26"

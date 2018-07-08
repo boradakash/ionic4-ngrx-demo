@@ -6,6 +6,9 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 
+import { StateModule } from './state/state.module';
+import { CoreModule } from './core/core.module';
+
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ComponentsModule } from './components/components.module';
@@ -17,7 +20,9 @@ import { ComponentsModule } from './components/components.module';
     BrowserModule,
     IonicModule.forRoot(),
     AppRoutingModule,
-    ComponentsModule
+    ComponentsModule,
+    StateModule.forRoot(),
+    CoreModule.forRoot()
   ],
   providers: [
     StatusBar,
